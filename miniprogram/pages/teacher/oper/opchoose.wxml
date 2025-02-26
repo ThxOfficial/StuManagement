@@ -1,0 +1,8 @@
+<!--pages/teacher/oper/opchoose.wxml-->
+<view class="bg">
+<text>请选择您想进行的操作</text>
+<button type="primary" bindtap='TapStu'>查 看 学 生</button>
+<button type="primary" bindtap='TapTea'>教 师 管 理</button>
+<button type="primary" bindtap='TapCour'>课 程 管 理</button>
+<button type="primary" bindtap='Tc'>选 课 管 理</button>
+</view>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a9aebf8-4014-4c98-841f-4d09ac556996" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/files/course.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/files/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/files/teacher.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mI5khcHxcM9bvrrnp3TknAI81k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flask 服务器.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/pythonproject/dbproject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Flask 服务器.Flask (app.py)">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="dbproject" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbproject" type="Python.FlaskServer">
+      <module name="dbproject" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask 服务器.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0a9aebf8-4014-4c98-841f-4d09ac556996" name="更改" comment="" />
+      <created>1726751394427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726751394427</updated>
+      <workItem from="1726751395819" duration="2759000" />
+      <workItem from="1726807761213" duration="2241000" />
+      <workItem from="1727429340201" duration="14000" />
+      <workItem from="1729431644604" duration="344000" />
+      <workItem from="1729476002854" duration="5000000" />
+      <workItem from="1729518627628" duration="1114000" />
+      <workItem from="1729650425292" duration="2212000" />
+      <workItem from="1729776233509" duration="3363000" />
+      <workItem from="1729909529804" duration="5983000" />
+      <workItem from="1729997332647" duration="1337000" />
+      <workItem from="1730037244268" duration="706000" />
+      <workItem from="1730079670131" duration="4762000" />
+      <workItem from="1730096110237" duration="4035000" />
+      <workItem from="1730115968930" duration="385000" />
+      <workItem from="1730116368953" duration="2806000" />
+      <workItem from="1730208178883" duration="644000" />
+      <workItem from="1730210776026" duration="2477000" />
+      <workItem from="1730250403079" duration="2408000" />
+      <workItem from="1730295517042" duration="421000" />
+      <workItem from="1730381401849" duration="1357000" />
+      <workItem from="1730858848553" duration="1873000" />
+      <workItem from="1730985868267" duration="1913000" />
+      <workItem from="1731042538405" duration="14317000" />
+      <workItem from="1731215748250" duration="10478000" />
+      <workItem from="1731239460762" duration="6252000" />
+      <workItem from="1731251611024" duration="546000" />
+      <workItem from="1731253903366" duration="612000" />
+      <workItem from="1731290564231" duration="2824000" />
+      <workItem from="1731315261788" duration="5691000" />
+      <workItem from="1731412555410" duration="3207000" />
+      <workItem from="1731506082257" duration="4388000" />
+      <workItem from="1731512231343" duration="1309000" />
+      <workItem from="1731553805577" duration="4242000" />
+      <workItem from="1731564716953" duration="5000" />
+      <workItem from="1731743151621" duration="8287000" />
+      <workItem from="1731822442671" duration="9792000" />
+      <workItem from="1731898045805" duration="3479000" />
+      <workItem from="1731909152826" duration="6378000" />
+      <workItem from="1731917383983" duration="8721000" />
+      <workItem from="1731937677731" duration="82000" />
+      <workItem from="1732069708813" duration="7441000" />
+      <workItem from="1732110221956" duration="1319000" />
+      <workItem from="1732154872706" duration="1926000" />
+      <workItem from="1732162999644" duration="371000" />
+      <workItem from="1732196204950" duration="1630000" />
+      <workItem from="1732250587111" duration="5173000" />
+      <workItem from="1732513812473" duration="11536000" />
+      <workItem from="1732539401297" duration="3942000" />
+      <workItem from="1732626537099" duration="3073000" />
+      <workItem from="1732674660532" duration="2317000" />
+      <workItem from="1732716220020" duration="1371000" />
+      <workItem from="1732768375955" duration="7733000" />
+      <workItem from="1732798691917" duration="1201000" />
+      <workItem from="1732847687344" duration="638000" />
+      <workItem from="1732861377876" duration="4598000" />
+      <workItem from="1732870442695" duration="881000" />
+      <workItem from="1732934788699" duration="3418000" />
+      <workItem from="1732955590918" duration="8000" />
+      <workItem from="1732956929901" duration="1445000" />
+      <workItem from="1733128367217" duration="3967000" />
+      <workItem from="1733150949384" duration="303000" />
+      <workItem from="1733218199871" duration="5207000" />
+      <workItem from="1733302478380" duration="12728000" />
+      <workItem from="1733326334548" duration="718000" />
+      <workItem from="1733365819605" duration="2105000" />
+      <workItem from="1733404135804" duration="1604000" />
+      <workItem from="1733666304642" duration="2819000" />
+      <workItem from="1733821611047" duration="895000" />
+      <workItem from="1733845034540" duration="1099000" />
+      <workItem from="1734182566110" duration="5313000" />
+      <workItem from="1734227649020" duration="377000" />
+      <workItem from="1734231604422" duration="185000" />
+      <workItem from="1734232891357" duration="1811000" />
+      <workItem from="1734328932424" duration="106000" />
+      <workItem from="1734334786961" duration="472000" />
+      <workItem from="1735958133523" duration="2465000" />
+      <workItem from="1739775790162" duration="4006000" />
+      <workItem from="1740580155642" duration="1631000" />
+      <workItem from="1740583131670" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dbproject$Flask__app_py_.coverage" NAME="Flask (app.py) 覆盖结果" MODIFIED="1740580428139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

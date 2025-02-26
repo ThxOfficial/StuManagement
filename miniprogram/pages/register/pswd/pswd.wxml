@@ -1,0 +1,24 @@
+<view class="bg">
+<view class="a">
+  <text class="title">学生端密码设置</text>
+</view>
+<view class="b">
+  <text class="subtitle">请输入密码</text>
+</view>
+<view class="c">
+  <text class="requirements">密码应不少于8位,且应包含大小写字母，数字以及！、？、@这三个符号</text>
+</view>
+<view class="clspswd1">
+  <input bindinput="InputPswd1" type="safe-password" placeholder="请输入密码" class="input"/>
+</view>
+<view class="b">
+  <text class="subtitle">请确认密码</text>
+  <view class="clspswd2">
+    <input bindinput="InputPswd2" type="safe-password" placeholder="请确认密码" class="input"/>
+  </view>
+  <view class="btn">
+    <button bindtap="Cfm" class="confirm-btn">确认</button>
+  </view>
+</view>
+<button type="primary" bindtap='Back' class="back-btn">返回</button>
+</view>

@@ -1,0 +1,93 @@
+/* pages/home/home.wxss */
+
+swiper{
+    width: 100%;
+    height: calc(100vw*442/810);
+}
+.swpimg{
+    width: 100%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.sear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sear input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sear button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sear button:hover {
+  background-color: #0056b3;
+}
+
+.rs {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgb(211, 241, 128);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.ta {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.tb {
+  width: 30%;
+  text-align: center;
+  color: #666;
+}
+
+.del {
+  width: 15%;
+  text-align: center;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.del:hover {
+  color: #0056b3;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg2.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}

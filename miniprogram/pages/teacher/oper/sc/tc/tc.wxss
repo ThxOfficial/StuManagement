@@ -1,0 +1,74 @@
+/* pages/teacher/oper/sc/tc/tc.wxss */
+.button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.back {
+  background-color: #9E9E9E;
+  color: white;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg5.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}
+
+.back:hover {
+  background-color: #757575;
+}
+
+.fuzzy {
+  background-color: #2196F3;
+  color: white;
+}
+
+.fuzzy:hover {
+  background-color: #1976D2;
+}
+
+.assign {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.assign:hover {
+  background-color: #45a049;
+}
+
+.course-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ta, .tb {
+  margin: 5px 0;
+  color: #333;
+}
+
+.ttl {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}

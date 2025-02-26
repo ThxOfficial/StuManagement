@@ -1,0 +1,17 @@
+<!--pages/teacher/teactr/teactr.wxml-->
+<view class="bg">
+<text>教师中心</text>
+<view class='ctr'>
+  <view class='img'>
+<image src="{{pic}}"></image>
+</view>
+<view class='ttl'>姓名:</view>
+<view class='ctt'>{{name}}</view>
+<view class='ttl'>性别:</view>
+<view class='ctt'>{{sex}}</view>
+<view class='ttl'>个性签名:</view>
+<view class='ctt'>{{sig}}</view>
+</view>
+<button type="primary" bindtap='Change'>个人信息修改</button>
+<button type="primary" bindtap='Exit'>退出登录</button>
+</view>

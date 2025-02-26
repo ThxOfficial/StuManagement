@@ -1,0 +1,20 @@
+<!--pages/teacher/teactr/change/change.wxml-->
+<view class="bg">
+<text>个人信息修改<br /></text>
+<image src="{{pic}}" class="img profile-pic"></image>
+<text>请输入姓名</text>
+<view class="cg">
+  <input bindinput="Name" type="text" placeholder="{{name}}" />
+</view>
+<text>请输入性别</text>
+<view class="cg">
+  <input bindinput="Sex" type="text" placeholder="{{sex}}" />
+</view>
+<text>请输入个性签名</text>
+<view class="cg">
+  <input bindinput="Sig" type="text" placeholder="{{sig}}" />
+</view>
+<button bindtap="Cfm" class="button cfm">修改个人信息</button>
+<button bindtap="Avtr" class="button avtr">修改头像</button>
+<button bindtap="Back" class="button back">返回</button>
+</view>

@@ -1,0 +1,77 @@
+/* pages/teacher/oper/opchoose.wxss */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b3b3e9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="primary"] {
+  background-color: #007bff;
+}
+
+button[type="primary"]:hover {
+  background-color: #0056b3;
+}
+
+button[bindtap='TapStu'] {
+  background-color: #4caf50;
+}
+
+button[bindtap='TapStu']:hover {
+  background-color: #388e3c;
+}
+
+button[bindtap='TapTea'] {
+  background-color: #ff9800;
+}
+
+button[bindtap='TapTea']:hover {
+  background-color: #f57c00;
+}
+
+button[bindtap='TapCour'] {
+  background-color: #e91e63;
+}
+
+button[bindtap='TapCour']:hover {
+  background-color: #c2185b;
+}
+
+button[bindtap='Tc'] {
+  background-color: #9c27b0;
+}
+
+button[bindtap='Tc']:hover {
+  background-color: #7b1fa2;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg6.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}

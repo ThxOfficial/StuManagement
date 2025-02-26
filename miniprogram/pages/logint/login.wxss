@@ -1,0 +1,22 @@
+/* pages/login/login.wxss */
+.btn{
+  color:rebeccapurple;
+  border-radius: 10px;
+  background-color: wheat;
+  border: groove;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg1.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}
+
+.input {
+  margin:  auto 10px;
+}

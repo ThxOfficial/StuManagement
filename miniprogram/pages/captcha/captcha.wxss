@@ -1,0 +1,55 @@
+/* pages/captcha/captcha.wxss */
+.b {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #31f080;
+  border-radius: 100px;
+}
+
+.cpta {
+  margin: 20px 0;
+  animation: fadeIn 1s ease-in-out;
+  width:100px;
+  height:50px;
+}
+
+.input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  animation: fadeInUp 1s ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg1.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}

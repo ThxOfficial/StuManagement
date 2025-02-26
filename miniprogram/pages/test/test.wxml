@@ -1,0 +1,6 @@
+<text>
+hallo world
+</text>
+<view>手机号</view>
+<input value="{{code}}"></input>
+<button bindtype="login">try</button>

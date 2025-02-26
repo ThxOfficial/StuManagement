@@ -1,0 +1,22 @@
+<!--pages/teacher/oper/course/add/add.wxml-->
+<view class="bg">
+<text>请输入完整的课程信息</text>
+<text>请输入课程号</text>
+<view class="cg">
+<input bindinput="Cid"  type="text" placeholder="课程号" />
+</view>
+<text>请输入课程名</text>
+<view class="cg">
+<input bindinput="Name"  type="text" placeholder="课程名" />
+</view>
+<text>请输入课程时长</text>
+<view class="cg">
+<input bindinput="Tm"  type="text" placeholder="课程时长" />
+</view>
+<text>请输入课程学分</text>
+<view class="cg">
+<input bindinput="Score"  type="text" placeholder="学分" />
+</view>
+<button bindtap="Cfm">添加课程信息</button>
+<button bindtap="Back">返回</button>
+</view>

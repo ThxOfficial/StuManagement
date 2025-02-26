@@ -1,0 +1,149 @@
+/* pages/student/stuctr/stuctr.wxss */
+.ctr {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.ttl {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6347;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ctt {
+  font-size: 16px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button[type="primary"]:nth-child(1) {
+  background-color: #ff6347; /* Red */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="primary"]:nth-child(1):hover {
+  background-color: #ff4500;
+  transform: scale(1.05);
+}
+
+button[type="primary"]:nth-child(2) {
+  background-color: #32cd32; /* Green */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="primary"]:nth-child(2):hover {
+  background-color: #228b22;
+  transform: scale(1.05);
+}
+
+button[type="primary"]:nth-child(3) {
+  background-color: #1e90ff; /* Blue */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="primary"]:nth-child(3):hover {
+  background-color: #1c86ee;
+  transform: scale(1.05);
+}
+
+button[type="primary"]:nth-child(4) {
+  background-color: #ffb6c1; /* Pink */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="primary"]:nth-child(4):hover {
+  background-color: #ff69b4;
+  transform: scale(1.05);
+}
+
+button[type="primary"]:nth-child(5) {
+  background-color: #8a2be2; /* Purple */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="primary"]:nth-child(5):hover {
+  background-color: #7a1fc8;
+  transform: scale(1.05);
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg5.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}
+
+.delbtn{
+  background-color: #ff0000; /* Red */
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+  margin-top: 20px;
+  position: relative;
+  bottom: -100px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

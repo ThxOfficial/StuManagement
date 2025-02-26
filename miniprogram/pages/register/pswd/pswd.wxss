@@ -1,0 +1,95 @@
+.a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  color: white;
+  animation: backgroundAnimation 3s infinite alternate;
+}
+
+.title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.requirements {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #777;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #007aff;
+  border-radius: 5px;
+  margin-top: 10px;
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.confirm-btn {
+  background-color: #007aff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff3b30;
+  color: white;
+  cursor: pointer;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg1.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}
+
+@keyframes backgroundAnimation {
+  0% { background: #ffafbd; }
+  50% { background: #ffc3a0; }
+  100% { background: #ffafbd; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInLeft {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

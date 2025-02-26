@@ -1,0 +1,101 @@
+/* pages/student/home/detail/detail.wxss */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+text {
+  font-size: 24px;
+  color: #4a4a4a;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.del {
+  color: #6dff40;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.del:hover {
+  color: #d81b60;
+}
+
+.rs {
+  width: 90%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rs img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.ttl, .tb {
+  width: 45%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.ttl {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.tb {
+  color: #424242;
+}
+
+.rs:nth-child(even) {
+  background-color: #e1f5fe;
+}
+
+.rs:nth-child(odd) {
+  background-color: #ffecb3;
+}
+
+.rs:hover {
+  background-color: #c5cae9;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg3.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}

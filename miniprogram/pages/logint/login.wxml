@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class='bg'>
+<view class="bt">
+  <text>欢迎使用教师端 <br /></text>
+</view>
+<view class="a">
+  <text>请输入账号与密码</text>
+<!-- <input bindinput="InputId">请输入账号</input> -->
+<input bindinput="InputId"  type="number" placeholder="请输入账号" class="input"/>
+<!-- <input bindinput="InputPswd">请输入密码</input> -->
+<input bindinput="InputPswd" type="safe-password" placeholder="请输入密码" class="input"/>
+<button bindtap="Cfm" class="btn">确认</button>
+<button bindtap="ToRe" class="btn">注册</button>
+<button bindtap="Back" class="btn">返回</button>
+</view>
+</view>
+

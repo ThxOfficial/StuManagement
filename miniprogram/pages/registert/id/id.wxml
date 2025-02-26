@@ -1,0 +1,13 @@
+<!--pages/register/id/id.wxml-->
+<view class="bg">
+<view class="a">
+  <text>请输入您的账号</text>
+  <view class="clsid">
+    <input bindinput="InputId" type="number" placeholder="请输入账号（教工号）" />
+  </view>
+  <view class="btn">
+    <button bindtap="Cfm" class="button cfm">确认</button>
+  </view>
+</view>
+<button type="primary" bindtap="Back" class="button back">返回</button>
+</view>

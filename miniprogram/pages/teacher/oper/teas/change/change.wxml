@@ -1,0 +1,20 @@
+<!--pages/teacher/oper/teas/change/change.wxml-->
+<view class="bg">
+<text>教师信息修改<br /></text>
+<image src="{{pic}}" class="profile-pic"></image>
+<text>请输入教师姓名</text>
+<view class="cg">
+  <input bindinput="Name" type="text" placeholder="{{fdname}}" />
+</view>
+<text>请输入教师头衔</text>
+<view class="cg">
+  <input bindinput="Ttl" type="text" placeholder="{{fdttl}}" />
+</view>
+<text>请输入教师电话</text>
+<view class="cg">
+  <input bindinput="Tel" type="text" placeholder="{{fdtel}}" />
+</view>
+<button bindtap="Pic" class="button pic">修改教师图片</button>
+<button bindtap="Cfm" class="button cfm">修改教师信息</button>
+<button bindtap="Back" class="button back">返回</button>
+</view>

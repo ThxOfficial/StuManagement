@@ -1,0 +1,19 @@
+<!--pages/student/selcour/selcour.wxml-->
+<!--js还没写-->
+<view class="bg">
+<text>我可选的课</text>
+<text>搜索</text>
+<view class="sear">
+<input bindinput="Scnm1"  type="text" placeholder="课程名精确搜索" />
+<button bindtap="SeCh1">精确搜索</button>
+<input bindinput="Scnm2"  type="text" placeholder="课程名模糊搜索" />
+<button bindtap="SeCh2">模糊搜索</button>
+</view>
+<view class='rs' wx:for="{{allc}}" wx:key="{{index}}">
+<view class='ta'>{{index}} </view>
+<view class='tb'>{{item.CID}}</view>
+<view class='tb'>{{item.NAME}}</view>
+<view class='del' data-index="{{index}} "bindtap='Detl' >查看详情</view>
+<view class='del' data-index="{{index}} "bindtap='Slct' >选课</view>
+</view>
+</view>

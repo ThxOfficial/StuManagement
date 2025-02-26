@@ -1,0 +1,33 @@
+<!--pages/teacher/oper/course/course.wxml-->
+<view class="bg">
+<text>所有课程<br /></text>
+<text>搜索</text>
+<view class="sear">
+  <input bindinput="Scnm1" type="text" placeholder="课程名精确搜索" />
+  <button bindtap="SeCh1" class="button precise">精确搜索</button>
+  <input bindinput="Scnm2" type="text" placeholder="课程名模糊搜索" />
+  <button bindtap="SeCh2" class="button fuzzy">模糊搜索</button>
+</view>
+<button bindtap="Add" class="button add">添加课程信息</button>
+<button bindtap="Back" class="button back">返回</button>
+<button bindtap="Dld" class="button dld">导出数据</button>
+<view class="rs" wx:for="{{allc}}" wx:key="{{index}}">
+  <image src="{{item.PIC}}" class="course-image"></image>
+  <view class="course-detail">
+    <view class="index">{{index}}</view>
+    <view class="course-info">
+      <view class="title">课程号</view>
+      <view class="content">{{item.CID}}</view>
+      <view class="title">课程名</view>
+      <view class="content">{{item.NAME}}</view>
+      <view class="title">学分</view>
+      <view class="content">{{item.SCORE}}</view>
+      <view class="title">学时</view>
+      <view class="content">{{item.TM}}</view>
+    </view>
+    <button bindtap="Chge" data-index="{{index}}" class="button action modify">修改</button>
+    <button bindtap="Del" data-index="{{index}}" class="button action delete">删除</button>
+  </view>
+</view>
+</view>
+

@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/chooseppl/chooseppl",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/login/login",
+    "pages/register/id/id",
+    "pages/register/pswd/pswd",
+    "pages/registert/id/id",
+    "pages/registert/pswd/pswd",
+    "pages/logint/login",
+    "pages/student/home/home",
+    "pages/teacher/home/home",
+    "pages/student/stuctr/stuctr",
+    "pages/teacher/teactr/teactr",
+    "pages/teacher/teactr/change/change",
+    "pages/student/stuctr/change/change",
+    "pages/student/selcour/selcour",
+    "pages/teacher/oper/opchoose",
+    "pages/teacher/oper/course/course",
+    "custom-tab-bar/index",
+    "pages/teacher/oper/teas/teas",
+    "pages/captcha/captcha",
+    "pages/teacher/oper/course/add/add",
+    "pages/teacher/oper/course/change/change",
+    "pages/teacher/home/detail/detail",
+    "pages/teacher/oper/stulook/stulook",
+    "pages/teacher/oper/stulook/detail/detail",
+    "pages/teacher/oper/teas/add/add",
+    "pages/teacher/oper/teas/change/change",
+    "pages/teacher/oper/sc/sc",
+    "pages/teacher/oper/sc/tc/tc",
+    "pages/student/home/detail/detail",
+    "pages/student/selcour/detail/detail",
+    "pages/teacher/home/detail/studetl/studetl",
+    "pages/faceid/faceid",
+    "pages/student/camara/camara"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#B4CBCE"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#7A7E83",
+    "backgroundColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/student/home/home",
+        "text": "学生主页",
+        "iconPath": "images/navpic/home0.png",
+        "selectedIconPath": "images/navpic/home1.png"
+      },
+      {
+        "pagePath": "pages/student/selcour/selcour",
+        "text": "学生操作页",
+        "iconPath": "images/navpic/oper0.png",
+        "selectedIconPath": "images/navpic/oper1.png"
+      },
+      {
+        "pagePath": "pages/student/stuctr/stuctr",
+        "text": "学生个人中心",
+        "iconPath": "images/navpic/center0.png",
+        "selectedIconPath": "images/navpic/center1.png"
+      },
+      {
+        "pagePath": "pages/teacher/home/home",
+        "text": "教师主页",
+        "iconPath": "images/navpic/home0.png",
+        "selectedIconPath": "images/navpic/home1.png"
+      },
+      {
+        "pagePath": "pages/teacher/oper/opchoose",
+        "text": "教师操作页",
+        "iconPath": "images/navpic/oper0.png",
+        "selectedIconPath": "images/navpic/oper1.png"
+      },
+      {
+        "pagePath": "pages/teacher/teactr/teactr",
+        "text": "教师个人中心",
+        "iconPath": "images/navpic/center0.png",
+        "selectedIconPath": "images/navpic/center1.png"
+      }
+    ]
+  }
+}

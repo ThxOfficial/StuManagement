@@ -1,0 +1,18 @@
+<!--pages/teacher/oper/sc/tc/tc.wxml-->
+<view class="bg">
+<text>所有教师<br /></text>
+<button bindtap="Back" class="button back">返回</button>
+<text>搜索</text>
+<view class="sear">
+  <input bindinput="Scnm2" type="text" placeholder="教师姓名模糊搜索" />
+  <button bindtap="SeCh2" class="button fuzzy">模糊搜索</button>
+</view>
+<view class="rs" wx:for="{{allt}}" wx:key="{{index}}">
+  <view class="course-detail">
+    <view class="ta">{{index}}</view>
+    <view class="tb">{{item.TID}}</view>
+    <view class="tb">{{item.NAME}}</view>
+    <view bindtap="Choose" class="button assign" data-index="{{index}}">分配教师</view>
+  </view>
+</view>
+</view>

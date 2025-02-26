@@ -1,0 +1,97 @@
+.cg {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007aff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 122, 255, 0.5);
+}
+
+.button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.cfm {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cfm:hover {
+  background-color: #45a049;
+}
+
+.avtr {
+  background-color: #FF9800;
+  color: white;
+}
+
+.avtr:hover {
+  background-color: #FB8C00;
+}
+
+.back {
+  background-color: #007aff;
+  color: white;
+}
+
+.back:hover {
+  background-color: #005bb5;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #007aff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+text {
+  display: block;
+  margin: 15px 0 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.bg{
+  background-image: url(https://tannhauser.oss-cn-beijing.aliyuncs.com/bgpic/bg5.png);
+  padding-top: 100rpx;
+  padding-bottom: 100rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:fit-content;
+  min-height: 1500rpx;
+  background-attachment: fixed;
+}

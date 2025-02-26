@@ -1,0 +1,22 @@
+<!--pages/teacher/oper/teas/add/add.wxml-->
+<view class="bg">
+<text>请输入完整的教师信息</text>
+<text>请输入教工号</text>
+<view class="cg">
+  <input bindinput="Tid" type="text" placeholder="教工号" />
+</view>
+<text>请输入教师姓名</text>
+<view class="cg">
+  <input bindinput="Name" type="text" placeholder="教师姓名" />
+</view>
+<text>请输入教师头衔</text>
+<view class="cg">
+  <input bindinput="Ttl" type="text" placeholder="教师头衔" />
+</view>
+<text>请输入课程教师联系方式</text>
+<view class="cg">
+  <input bindinput="Tel" type="text" placeholder="电话号码" />
+</view>
+<button bindtap="Cfm" class="button cfm">添加教师信息</button>
+<button bindtap="Back" class="button back">返回</button>
+</view>

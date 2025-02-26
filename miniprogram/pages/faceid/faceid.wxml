@@ -1,0 +1,2 @@
+<!--pages/faceid/faceid.wxml-->
+<button bindtap='Ck' class="btn">核验</button>

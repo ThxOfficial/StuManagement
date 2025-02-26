@@ -1,0 +1,20 @@
+<!--pages/teacher/oper/stulook/stulook.wxml-->
+<view class="bg">
+<text>搜索</text>
+<view class="sear">
+  <input bindinput="Scnm1" type="text" placeholder="学生姓名精确搜索" />
+  <button bindtap="SeCh1" class="button precise">精确搜索</button>
+  <input bindinput="Scnm2" type="text" placeholder="学生姓名模糊搜索" />
+  <button bindtap="SeCh2" class="button fuzzy">模糊搜索</button>
+</view>
+<button bindtap="Back" class="button back">返回</button>
+<button bindtap="Dld" class="button dld">导出数据</button>
+<view class="rs" wx:for="{{allc}}" wx:key="{{index}}">
+  <view class="course-detail">
+    <view class="ta">{{index}}</view>
+    <view class="tb">{{item.ID}}</view>
+    <view class="tb">{{item.NAME}}</view>
+    <view bindtap="Detl" class="button detail" data-index="{{index}}">查看详情</view>
+  </view>
+</view>
+</view>

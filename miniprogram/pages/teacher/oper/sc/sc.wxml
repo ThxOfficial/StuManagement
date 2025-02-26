@@ -1,0 +1,26 @@
+<!--pages/teacher/oper/sc/sc.wxml-->
+<view class="bg">
+<button bindtap="Back" class="button back">返回</button>
+<view class="ttl">未分配教师课程</view>
+<input bindinput="Scnm1" type="text" placeholder="课程名模糊搜索" />
+<button bindtap="SeCh1" class="button fuzzy">模糊搜索</button>
+<view class="rs" wx:for="{{allc1}}" wx:key="{{index}}">
+  <view class="course-detail">
+    <view class="ta">{{index}}</view>
+    <view class="tb">{{item.CID}}</view>
+    <view class="tb">{{item.NAME}}</view>
+    <view bindtap="TeaArr" class="button assign" data-index="{{index}}">分配教师</view>
+  </view>
+</view>
+<view class="ttl">已分配教师课程</view>
+<input bindinput="Scnm2" type="text" placeholder="课程名模糊搜索" />
+<button bindtap="SeCh2" class="button fuzzy">模糊搜索</button>
+<view class="rs" wx:for="{{allc2}}" wx:key="{{index}}">
+  <view class="course-detail">
+    <view class="ta">{{index}}</view>
+    <view class="tb">{{item.CID}}</view>
+    <view class="tb">{{item.NAME}}</view>
+    <view bindtap="TeaDel" class="button unassign" data-idx="{{index}}">取消分配</view>
+  </view>
+</view>
+</view>

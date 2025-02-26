@@ -1,0 +1,20 @@
+<!--pages/teacher/oper/course/change/change.wxml-->
+<view class="bg">
+<text>个人信息修改<br /></text>
+<image src="{{pic}}"></image>
+<text>请输入课程名</text>
+<view class="cg">
+<input bindinput="Name"  type="text" placeholder="{{fdname}}" />
+</view>
+<text>请输入课程时长</text>
+<view class="cg">
+<input bindinput="TM"  type="text" placeholder="{{fdtm}}" />
+</view>
+<text>请输入学分</text>
+<view class="cg">
+<input bindinput="Score"  type="text" placeholder="{{fdscore}}" />
+</view>
+<button bindtap="Pic">修改课程图片</button>
+<button bindtap="Cfm">修改课程信息</button>
+<button bindtap="Back">返回</button>
+</view>

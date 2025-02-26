@@ -1,0 +1,17 @@
+<!--pages/teacher/oper/stulook/detail/detail.wxml-->
+<view class="bg">
+<view class="a">
+  <image src="{{pic}}" class="profile-pic"></image>
+  <view class="ttl">学号</view>
+  <view class="ta">{{id}}</view>
+  <view class="ttl">姓名</view>
+  <view class="tb">{{name}}</view>
+  <view class="ttl">昵称</view>
+  <view class="tb">{{nkname}}</view>
+  <view class="ttl">性别</view>
+  <view class="tb">{{sex}}</view>
+  <view class="ttl">个性签名</view>
+  <view class="tb">{{sig}}</view>
+</view>
+<button bindtap="Back" class="button back">返回</button>
+</view>

@@ -1,0 +1,13 @@
+<view class="bg">
+<view class="a">
+  <text class="title">请输入您的账号</text>
+  <view class="clsid">
+    <input bindinput="InputId" type="number" placeholder="请输入账号（学号）" class="ipt"/>
+  </view>
+
+  <view class="btn">
+    <button bindtap="Cfm" class="confirm-btn">确认</button>
+  </view>
+</view>
+<button type="primary" bindtap='Back' class="back-btn">返回</button>
+</view>

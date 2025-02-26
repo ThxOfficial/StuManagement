@@ -1,0 +1,26 @@
+<!--pages/student/selcour/detail/detail.wxml-->
+<view class="bg">
+<button bindtap="Back">返回</button>
+  <view class='del' bindtap='Slct' >点我选课</view>
+  <view class='rs' wx:for="{{cinfo}}" >
+  <image src="{{item.PIC}}"></image>
+<view class='ttl'>课程号</view>
+<view class='tb'>{{item.CID}}</view>
+<view class='ttl'>课程名</view>
+<view class='tb'>{{item.NAME}}</view>
+<view class='ttl'>学分</view>
+<view class='tb'>{{item.SCORE}}</view>
+<view class='ttl'>学时</view>
+<view class='tb'>{{item.TM}}</view>
+</view>
+<view class='ttl'>任课老师信息</view>
+<view class='rs' wx:for="{{tinfo}}" >
+<image src="{{item.PIC}}"></image>
+<view class='ttl'>教师姓名</view>
+<view class='tb'>{{item.NAME}}</view>
+<view class='ttl'>教师头衔</view>
+<view class='tb'>{{item.TTL}}</view>
+<view class='ttl'>联系方式</view>
+<view class='tb'>{{item.TEL}}</view>
+</view>
+</view>

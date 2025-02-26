@@ -1,0 +1,29 @@
+<!--pages/teacher/oper/teas/teas.wxml-->
+<view class="bg">
+<text>所有教师<br /></text>
+<text>搜索</text>
+<view class="sear">
+  <input bindinput="Scnm1" type="text" placeholder="教师姓名精确搜索" />
+  <button bindtap="SeCh1" class="button precise">精确搜索</button>
+  <input bindinput="Scnm2" type="text" placeholder="教师姓名模糊搜索" />
+  <button bindtap="SeCh2" class="button fuzzy">模糊搜索</button>
+</view>
+<button bindtap="Add" class="button add">添加教师信息</button>
+<button bindtap="Dld" class="button dld">导出数据</button>
+<button bindtap="Back" class="button back">返回</button>
+<view class="rs" wx:for="{{allt}}" wx:key="{{index}}">
+  <image src="{{item.PIC}}" class="teacher-pic"></image>
+  <view class="teacher-detail">
+    <view class="ta">教工号</view>
+    <view class="tb">{{item.TID}}</view>
+    <view class="ttl">教师姓名</view>
+    <view class="tb">{{item.NAME}}</view>
+    <view class="ttl">教师头衔</view>
+    <view class="tb">{{item.TTL}}</view>
+    <view class="ttl">联系方式</view>
+    <view class="tb">{{item.TEL}}</view>
+    <view bindtap="Chge" class="button action modify" data-index="{{index}}">修改</view>
+    <view bindtap="Del" class="button action delete" data-index="{{index}}">删除</view>
+  </view>
+</view>
+</view>

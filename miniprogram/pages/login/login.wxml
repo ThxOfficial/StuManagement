@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class="bg">
+<view class="siz">
+  <view>
+<text>欢迎使用学生端 <br /></text>
+</view>
+<view class="t">
+<view class="txt">
+  <text>请输入账号与密码</text>
+</view>
+<!-- <input bindinput="InputId">请输入账号</input> -->
+<view>
+<input bindinput="InputId"  type="number" placeholder="请输入账号" class="input"/>
+</view>
+<!-- <input bindinput="InputPswd">请输入密码</input> -->
+<view>
+<input bindinput="InputPswd" type="safe-password" placeholder="请输入密码" class="input"/>
+</view>
+</view>
+<button bindtap="Cfm" class="btn">确认</button>
+<button bindtap="ToRe" class="btn">注册</button>
+<button bindtap="Back" class="btn">返回</button>
+</view>
+</view>
+

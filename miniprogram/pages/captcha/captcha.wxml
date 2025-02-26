@@ -1,0 +1,13 @@
+<!--pages/captcha/captcha.wxml-->
+<view class='bg'>
+<view class='b'>
+  <text>验证页</text>
+  <image src="{{picpath}}" class='cpta'></image>
+  <text>请输入验证码</text>
+  <input bindinput="Cptc" type="text" placeholder="请输入验证码" class="input"/>
+  <text>每张验证码最多输错5次</text>
+  <button bindtap="Cfm" class="btn">确定</button>
+  <button bindtap="Cg" class="btn">换一张</button>
+  <button bindtap="Back" class="btn">返回</button>
+</view>
+</view>

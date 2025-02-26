@@ -1,0 +1,2 @@
+# StuManagement
+基于python flask框架与阿里云oss的学生选课系统小程序
